@@ -1,7 +1,12 @@
 {
-  "access-token": "${{ secrets.ACCESS_TOKEN }}",
   "server": "social.noleron.com",
   "home-timeline-length": 200,
   "max-followings": 80,
-  "from-notifications": 1
+  "from-notifications": 1,
+  "max-bookmarks": 80,
+  "max-favourites": 40,
+  "max-follow-requests": 80,
+  "remember-users-for-hours": 168,
+  "remember-hosts-for-days": 30,
+  "http-timeout": 5
 }
